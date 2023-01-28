@@ -1,5 +1,9 @@
 # Full Stack Apps on AWS Project
 
+EB_URL:-http://image-processing-microservice-on-aws-dev.us-west-2.elasticbeanstalk.com/
+GitHub_ URL: https://github.com/lalitkishor/Image-Processing-Microservice-on-AWS
+Working URL:- http://image-processing-microservice-on-aws-dev.us-west-2.elasticbeanstalk.com/filteredimage?image_url=https://png.pngitem.com/pimgs/s/114-1140575_kitten-png-png-freeuse-cat-with-transparent-background.png
+
 You have been hired as a software engineer to develop an application that will help the FBI find missing people.  The application will upload images to the FBI cloud database hosted in AWS. This will allow the FBI to run facial recognition software on the images to detect a match. You will be developing a NodeJS server and deploying it on AWS Elastic Beanstalk. 
 You will build upon the application we've developed during the lessons in this course. You'll complete a REST API endpoint in a backend service that processes incoming image URLs.
 

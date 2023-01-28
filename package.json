@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf www/ || true",
+    "build": "npm run clean && mkdir www && cp -R package.json server.js util www && cd www && zip -r Archive.zip . && cd ..",
     "start": "node server.js"
   },
   "author": "",
